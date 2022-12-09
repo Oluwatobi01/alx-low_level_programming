@@ -3,7 +3,7 @@
 
 /**
  * main - returns a combination of number
- * 
+ *
  * Return: return 0 if successful
  */
 
