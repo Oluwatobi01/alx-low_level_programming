@@ -7,17 +7,17 @@
  * Return: Always 0 (Success)
  */
 
-int main(void) /*function declearation*/
+int main(void)
 {
-	int num = '0'; /*initialize num to 0*/
-	char letter = 'a'; /*initialize letter to a*/
+	int num = '0';
+	char letter = 'a';
 
-	while (num <= '9') /*print 0-9*/
+	while (num <= '9')
 	{
 		putchar(num);
 		num++;
 	}
-	while (letter <= 'f') /*print a-f*/
+	while (letter <= 'f')
 	{
 		putchar(letter);
 		letter++;
