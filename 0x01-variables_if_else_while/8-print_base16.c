@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main(void) /*function declearation*/
 {
 	int num = '0'; /*initialize num to 0*/
 	char letter = 'a'; /*initialize letter to a*/
