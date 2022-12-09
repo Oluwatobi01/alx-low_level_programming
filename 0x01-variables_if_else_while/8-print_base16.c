@@ -4,6 +4,8 @@
 /**
  * mian - return all the number of base16 in lowercase
  *
+ * Description: 'the program's description'
+ *
  * Return: Always 0 (Success)
  */
 
