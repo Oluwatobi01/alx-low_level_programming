@@ -7,7 +7,6 @@
 * @accept: target matches
 * Return: pointer to index of string at first occurence
 */
-
 char *_strpbrk(char *s, char *accept)
 {
 	int x = 0, y;
@@ -24,5 +23,7 @@ char *_strpbrk(char *s, char *accept)
 		}
 	x++;	
 	}
+
 	return (NULL);
+
 }
