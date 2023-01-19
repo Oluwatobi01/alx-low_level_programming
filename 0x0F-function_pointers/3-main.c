@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
 	}
 	arg1 = atoi(argv[1]);
 	arg2 = atoi(argv[3]);
+
 	func = get_op_func(argv[2]);
 
 	if (!func)
@@ -28,6 +29,7 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 	o = *argv[2];
+
 	if ((o == '/' || o == '%') && arg2 == 0)
 	{
 		printf("Error\n");
